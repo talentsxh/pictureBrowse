@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <com.alexvasilkov.gestures.views.GestureImageView
+          android:visibility="gone"
+          android:id="@+id/gesture_image"
+          android:layout_width="match_parent"
+          android:layout_gravity="center"
+          android:layout_height="match_parent"/>
+
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+        android:visibility="gone"
+        android:id="@+id/scale_image"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>
